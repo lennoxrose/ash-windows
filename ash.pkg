@@ -1,9 +1,15 @@
 name: ash-windows
 version: 0.1.0
+author: lennoxrose
 description: Window Creation Lib for Ash
 main: ash_windows.AshWindows
 memory-safety: on
 license: MIT
+
+homepage: https://hub.ash-project.org/packages/lennoxrose/ash-windows
+repository: github:lennoxrose/ash-windows
+bugs: https://github.com/lennoxrose/ash-windows/issues
+keywords: ash, stdlib, app
 
 [scripts]
 build: for f in $(find src/main/ash -name '*.ash'); do ASH_PATH=src/main/ash ashvm check "$f" || exit 1; done
