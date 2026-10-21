@@ -5,7 +5,7 @@ socket with the `raw_*` builtins, draws into a software framebuffer (anti-aliase
 uploads it with `PutImage`. No native library, no C. Linux + a running X server (Xorg, Xwayland, Xephyr).
 
 ```sh
-apm add github:<user>/ash-windows
+apm add github:lennoxrose/ash-windows
 ```
 
 ```ash
