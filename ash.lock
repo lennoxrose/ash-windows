@@ -1,0 +1,7 @@
+# ash.lock -- written by apm; commit it.
+# `apm install` checks out exactly these commits, whatever a tag or branch points to now;
+# `apm update [name]` is what moves them. Format of a line: name: source commit [via requiring-package]
+lock: 1
+
+[packages]
+ash-stdlib: lennoxrose/ash-stdlib a76a062501d737e5ebd9fb877c7eff911b51f2e5

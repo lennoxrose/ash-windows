@@ -1,0 +1,12 @@
+name: ash-windows
+version: 0.1.0
+description: Window Creation Lib for Ash
+main: ash_windows.AshWindows
+memory-safety: on
+license: MIT
+
+[scripts]
+build: for f in $(find src/main/ash -name '*.ash'); do ASH_PATH=src/main/ash ashvm check "$f" || exit 1; done
+
+[dependencies]
+ash-stdlib: lennoxrose/ash-stdlib
